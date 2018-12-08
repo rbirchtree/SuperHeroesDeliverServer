@@ -1,6 +1,6 @@
 'use strict';
 const express = require("express");
-const stripe = require("stripe")();
+const stripe = require("stripe")("sk_live_fIKXwqtbpIzeGU94lyir42UX");
 const bodyParser = require('body-parser').text();
 
 const router = express.Router();
