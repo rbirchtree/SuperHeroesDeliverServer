@@ -42,6 +42,10 @@ const OrderSchema = mongoose.Schema({
 	orderDate:{
 		type: Date,
 		required: true
+	},
+	phoneNumber:{
+		type: String,
+		required: true
 	}
 });
 
