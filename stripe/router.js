@@ -1,6 +1,7 @@
 'use strict';
 const express = require("express");
 const stripe = require("stripe")("sk_live_fIKXwqtbpIzeGU94lyir42UX");
+//plug in key for stripe here don't commit
 const bodyParser = require('body-parser').text();
 
 const router = express.Router();

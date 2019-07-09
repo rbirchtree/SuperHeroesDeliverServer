@@ -15,10 +15,6 @@ const OrderSchema = mongoose.Schema({
 		type: String,
 		required: true,
 	},
-	phoneNumber:{
-		type: String,
-		required: true
-	},
 	deliveryPlace: {
 		type: String,
 		required: true
